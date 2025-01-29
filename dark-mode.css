@@ -1,0 +1,26 @@
+/* Dark Mode */
+.dark-mode {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .content {
+    background: #444;
+}
+
+.dark-mode button {
+    background: white;
+    color: #333;
+}
+
+.dark-mode button:hover {
+    background: #ddd;
+}
+
+.dark-mode .image-box img {
+    border-color: white;
+}
+
+.dark-mode .media-icons i:hover {
+    color: #bbb;
+}
