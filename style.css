@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.3s, color 0.3s;
+}
+
+.outer {
+    text-align: center;
+}
+
+.content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.details h1 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.details h2 {
+    font-size: 18px;
+    color: #666;
+}
+
+.details p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #555;
+}
+
+.media-icons {
+    margin-top: 15px;
+}
+
+.media-icons i {
+    margin: 0 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.media-icons i:hover {
+    color: #666;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .content {
+    background: #444;
+}
+
+.dark-mode button {
+    background: white;
+    color: #333;
+}
+
+.dark-mode button:hover {
+    background: #ddd;
+}
+
+.dark-mode .image-box img {
+    border-color: white;
+}
+
+.dark-mode .media-icons i:hover {
+    color: #bbb;
+}
